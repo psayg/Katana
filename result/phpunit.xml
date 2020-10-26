@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002388">
+    <testsuite name="Test suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002388">
+      <testsuite name="testCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\testCase1.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002388">
+        <testcase name="test_existeAdmin" class="testCase1" classname="testCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\testCase1.php" line="15" assertions="1" time="0.002388"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
