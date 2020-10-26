@@ -1,0 +1,8 @@
+Ir a https://phpunit.de/getting-started/phpunit-9.html
+
+Instalar de forma local el phpunit
+
+
+-- Forma de ejecucion test case
+phpunit --bootstrap .\admin\core\modules\index\model\UserData.php .\test\testCase1.php
+

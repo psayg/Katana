@@ -123,6 +123,20 @@ class UserData {
 		return $array;
 	}
 
+	/* Funciones utilizadas para pruebas automatizadas */
+
+	public function existeAdmin($var){
+		$sql = "select count(*) as count from ".self::$tablename." where username like '".$var."'";
+		$host = "localhost";
+		$ddbb = "katanalite";
+		$user = "root";
+		$pass = "";
+		$con = new mysqli($host,$user,$pass,$ddbb);
+		$query = $con->query($sql);
+		$result = mysqli_fetch_assoc($query);
+		$data = $result['count'];
+        return $data;
+    }
 
 }
 
