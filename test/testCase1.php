@@ -8,7 +8,7 @@
 */
 
 use PHPUnit\Framework\TestCase;
-
+require "admin\core\modules\index\model\UserData.php";
 final class testCase1 extends TestCase
 {
     /** @test */
