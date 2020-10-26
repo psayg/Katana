@@ -8,7 +8,7 @@
 */
 
 use PHPUnit\Framework\TestCase;
-
+require 'admin\core\modules\index\model\UserData.php';
 final class testCase1 extends TestCase
 {
     /** @test */
@@ -16,7 +16,7 @@ final class testCase1 extends TestCase
     {
         $userdata = new userData();
         $this->assertEquals(
-            0, $userdata->existeAdmin('psay')
+            1, $userdata->existeAdmin('psay')
         );
     }
 }
