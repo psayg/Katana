@@ -16,7 +16,7 @@ final class testCase1 extends TestCase
     {
         $userdata = new userData();
         $this->assertEquals(
-            1, $userdata->existeAdmin('psay')
+            0, $userdata->existeAdmin('psay')
         );
     }
 }
