@@ -17,3 +17,5 @@ pass
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkUjAuNrJifZfpkD/O4CNBu4/nZrasDdYZJ4XoZpQ2j8WMlojDvUjPSG6VAmzdwMuYaC96VQcCC5rmR2Kict058vdvKeTxuXLDAHzpy8akr0IiraU/85BGMtWyJHEfFFivqRC9oAZ4RsJsnp1dVyWGxOw+Z1KIpRMvjJwnRZJGcIJr5zKO1Q5EbNtlsQJQ6GCeviIVKq88A6BvA27uFYjRssrjMPJoakl22/jCuWw/gbG50vU8n4gMslSrooSOb3w6dKRVOAsW9XO55xLFL8ubMTVbzRaZ79sD5e3ntFGvFFAHmB5A1/LyqFvyfrI1nImnV8LTlTsI6EyMlHpaf/WD administrator@EC2AMAZ-RBC7G6O
 ec2-3-138-227-116.us-east-2.compute.amazonaws.com:8090
+
+phpunit --log-junit .\result\phpunit.xml -c .\test\phpunit.xml

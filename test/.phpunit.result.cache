@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":87:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:1:{s:27:"testCase1::test_existeAdmin";d:0.002;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":251:{a:2:{s:7:"defects";a:2:{s:27:"TestCase1::test_existeAdmin";i:4;s:27:"TestCase2::test_existeAdmin";i:4;}s:5:"times";a:3:{s:27:"testCase1::test_existeAdmin";d:0.002;s:27:"TestCase1::test_existeAdmin";d:0.023;s:27:"TestCase2::test_existeAdmin";d:0.026;}}}
