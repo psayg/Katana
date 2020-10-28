@@ -1,5 +1,4 @@
 <?php declare(strict_types=1);
-
 use PHPUnit\Framework\TestCase;
 include('admin\core\modules\index\model\UserData.php');
 include('admin\core\modules\index\model\ProductData.php');

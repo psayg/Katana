@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.063015">
-    <testsuite name="Test suite" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.063015">
-      <testsuite name="TestCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001652">
-        <testcase name="test_existeAdmin" class="TestCase1" classname="TestCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="19" assertions="1" time="0.001652"/>
+  <testsuite name="" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.081215">
+    <testsuite name="Test suite" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.081215">
+      <testsuite name="TestCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.026842">
+        <testcase name="test_existeAdmin" class="TestCase1" classname="TestCase1" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="18" assertions="1" time="0.026842"/>
       </testsuite>
-      <testsuite name="TestCase2" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.024598">
-        <testcase name="test_existeProducto" class="TestCase2" classname="TestCase2" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="38" assertions="1" time="0.024598"/>
+      <testsuite name="TestCase2" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.013227">
+        <testcase name="test_existeProducto" class="TestCase2" classname="TestCase2" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="37" assertions="1" time="0.013227"/>
       </testsuite>
-      <testsuite name="TestCase3" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001533">
-        <testcase name="test_codigoProducto" class="TestCase3" classname="TestCase3" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="56" assertions="1" time="0.001533"/>
+      <testsuite name="TestCase3" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001346">
+        <testcase name="test_codigoProducto" class="TestCase3" classname="TestCase3" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="55" assertions="1" time="0.001346"/>
       </testsuite>
-      <testsuite name="TestCase4" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.020379">
-        <testcase name="test_existeCliente" class="TestCase4" classname="TestCase4" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="75" assertions="1" time="0.020379"/>
+      <testsuite name="TestCase4" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.026307">
+        <testcase name="test_existeCliente" class="TestCase4" classname="TestCase4" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="74" assertions="1" time="0.026307"/>
       </testsuite>
-      <testsuite name="TestCase5" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.014853">
-        <testcase name="test_statusCliente" class="TestCase5" classname="TestCase5" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="93" assertions="1" time="0.014853"/>
+      <testsuite name="TestCase5" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.013494">
+        <testcase name="test_statusCliente" class="TestCase5" classname="TestCase5" file="C:\Users\pablo\OneDrive\Ingenieria UMG\Cursos 2doSemestre2020\Aseguramiento de la calidad\Proyecto2\Git\Katana-1\test\TestCases.php" line="92" assertions="1" time="0.013494"/>
       </testsuite>
     </testsuite>
   </testsuite>

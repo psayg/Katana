@@ -115,33 +115,33 @@ class ClientData {
 		return $array;
 	}
 
-		/* Funciones utilizadas para pruebas automatizadas */
+	/* Funciones utilizadas para pruebas automatizadas */
 
-		public function statusCliente($email){
-			$sql = "select is_active from ".self::$tablename." where email = '".$email."'";
-			$host = "localhost";
-			$ddbb = "katanalite";
-			$user = "root";
-			$pass = "";
-			$con = new mysqli($host,$user,$pass,$ddbb);
-			$query = $con->query($sql);
-			$result = mysqli_fetch_assoc($query);
-			$data = $result['is_active'];
-			return $data;
-		}
+	public function statusCliente($email){
+		$sql = "select is_active from ".self::$tablename." where email = '".$email."'";
+		$host = "localhost";
+		$ddbb = "katanalite";
+		$user = "root";
+		$pass = "";
+		$con = new mysqli($host,$user,$pass,$ddbb);
+		$query = $con->query($sql);
+		$result = mysqli_fetch_assoc($query);
+		$data = $result['is_active'];
+		return $data;
+	}
 	
-		public function existeCliente($email){
-			$sql = "select count(*) as count from ".self::$tablename." where email = '".$email."'";
-			$host = "localhost";
-			$ddbb = "katanalite";
-			$user = "root";
-			$pass = "";
-			$con = new mysqli($host,$user,$pass,$ddbb);
-			$query = $con->query($sql);
-			$result = mysqli_fetch_assoc($query);
-			$data = $result['count'];
-			return $data;
-		}
+	public function existeCliente($email){
+		$sql = "select count(*) as count from ".self::$tablename." where email = '".$email."'";
+		$host = "localhost";
+		$ddbb = "katanalite";
+		$user = "root";
+		$pass = "";
+		$con = new mysqli($host,$user,$pass,$ddbb);
+		$query = $con->query($sql);
+		$result = mysqli_fetch_assoc($query);
+		$data = $result['count'];
+		return $data;
+	}
 
 
 }
