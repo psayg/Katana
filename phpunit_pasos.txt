@@ -19,3 +19,5 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkUjAuNrJifZfpkD/O4CNBu4/nZrasDdYZJ4XoZpQ2
 ec2-3-138-227-116.us-east-2.compute.amazonaws.com:8090
 
 phpunit --log-junit .\result\phpunit.xml -c .\test\phpunit.xml
+phpunit --log-junit .\result\phpunit.xml -c .\test\phpunit.xml
+phpunit -c .\test\phpunit.xml
